@@ -1,0 +1,1000 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FolderSync V3.0 使用手册 | CXPLAY World</title><meta name="keywords" content="FolderSync,FolderSync Pro,同步工具,安卓软件,自动同步,GoogleDrive,FTP,SMB"><meta name="author" content="CXPLAY,admin@cxplay.org"><meta name="copyright" content="CXPLAY"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Android 文件同步软件 FolderSync 于 2020 年 5 月 7 日使用了全新的 UI 界面, 在此重新为这款优秀的软件撰写一篇全面的中文使用手册.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FolderSync V3.0 使用手册">
+<meta property="og:url" content="https://www.cxplay.org/works/foldersync_v3.html">
+<meta property="og:site_name" content="CXPLAY World">
+<meta property="og:description" content="Android 文件同步软件 FolderSync 于 2020 年 5 月 7 日使用了全新的 UI 界面, 在此重新为这款优秀的软件撰写一篇全面的中文使用手册.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.bugimg.com/img/blog/foldersync_v3/cover.png">
+<meta property="article:published_time" content="2021-02-27T10:12:19.000Z">
+<meta property="article:modified_time" content="2021-08-11T01:49:33.450Z">
+<meta property="article:author" content="CXPLAY">
+<meta property="article:tag" content="FolderSync">
+<meta property="article:tag" content="Android">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.bugimg.com/img/blog/foldersync_v3/cover.png"><link rel="shortcut icon" href="https://i.bugimg.com/img/ico/favicon.ico"><link rel="canonical" href="https://www.cxplay.org/works/foldersync_v3"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="https://raw.filel.ink/css/index.css"><link rel="stylesheet" href="https://raw.filel.ink/u/1/files/css/fontawesome-free/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://raw.filel.ink/u/1/files/node-snackbar/snackbar.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search_cache.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":100,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  noticeOutdate: {"limitDay":90,"position":"top","messagePrev":"文章距离上次更新已有","messageNext":"天"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":500},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":1000,"languages":{"author":"作者: CXPLAY","link":"链接: ","source":"来源: CXPLAY World","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#1661ab","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'FolderSync V3.0 使用手册',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-08-11 09:49:33'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    document.addEventListener('pjax:complete', detectApple)})(window)</script><meta itemprop="name" content="CXPLAY World"><meta itemprop="image" content="https://i.bugimg.com/img/ico/favicon-32x32.png"><meta name="description" itemprop="description" content="Share With You."><link rel="apple-touch-icon" sizes="180x180" href="/img/ico/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/img/ico/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/ico/favicon-16x16.png"><link rel="manifest" href="/img/ico/site.webmanifest"><link rel="mask-icon" href="/img/ico/safari-pinned-tab.svg" color="#5bbad5"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/rss2.xml" title="CXPLAY World" type="application/rss+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/cxplay.png" onerror="onerror=null;src='https://i.bugimg.com/img/404.png'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-info"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/log/"><i class="fa-fw fas fa-file-alt"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.bugimg.com/img/blog/foldersync_v3/top_img.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">CXPLAY World</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-info"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/log/"><i class="fa-fw fas fa-file-alt"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">FolderSync V3.0 使用手册</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-02-27T10:12:19.000Z" title="发表于 2021-02-27 18:12:19">2021-02-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-11T01:49:33.450Z" title="更新于 2021-08-11 09:49:33">2021-08-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8E%88%E8%A8%80%E5%86%8C/">授言册</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/Android/">Android</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">5.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">|</span><span class="leancloud_visitors" id="/works/foldersync_v3.html" data-flag-title="FolderSync V3.0 使用手册"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span class="leancloud-visitors-count"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="使用准备"><a href="#使用准备" class="headerlink" title="使用准备"></a>使用准备</h1><h2 id="关于-FolderSync"><a href="#关于-FolderSync" class="headerlink" title="关于 FolderSync"></a>关于 FolderSync</h2><p>FolderSync 是 Android 平台上一款文件同步软件, 适用于多种网络储存和传输协议并支持自动任务.</p>
+<div class="note warning modern"><p>FolderSync 仅支持 Android 6.0 以上的设备运行.  </p>
+</div>
+
+<h2 id="支持的云储存提供商"><a href="#支持的云储存提供商" class="headerlink" title="支持的云储存提供商"></a>支持的云储存提供商</h2><div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span>点击展开</span></div>
+    <div class="hide-content"><ul>
+<li>Amazon S3 (Simple Storage Service)</li>
+<li>Box</li>
+<li>CloudMe</li>
+<li>Dropbox</li>
+<li>Google Drive</li>
+<li>HiDrive</li>
+<li>Livedrive Premium</li>
+<li>MEGA</li>
+<li>MyDrive.ch</li>
+<li>MyKolab</li>
+<li>NetDocuments</li>
+<li>OneDrive</li>
+<li>OneDrive for Business</li>
+<li>OwnCloud</li>
+<li>pCloud</li>
+<li>Storegate</li>
+<li>SugarSync</li>
+<li>WEB.DE</li>
+<li>Yandex Disk  </li>
+</ul>
+</div></div>
+
+<h2 id="支持的传输协议"><a href="#支持的传输协议" class="headerlink" title="支持的传输协议"></a>支持的传输协议</h2><ul>
+<li>FTP</li>
+<li>FTPS (SSL / TLS implicit)</li>
+<li>FTPES (SSL / TLS explicit)</li>
+<li>SFTP (SSH File Transfer)</li>
+<li>SMB1 / CIFS / Windows Share</li>
+<li>SMB2</li>
+<li>WebDAV (HTTPS)</li>
+</ul>
+<h2 id="相关站点"><a href="#相关站点" class="headerlink" title="相关站点"></a>相关站点</h2><ul>
+<li>Tacit Dynamics: <a href="https://www.tacit.dk/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tacit.dk/</a><blockquote>
+<p>开发者官方站点</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h1 id="获得-FolderSync-Pro"><a href="#获得-FolderSync-Pro" class="headerlink" title="获得 FolderSync (Pro)"></a>获得 FolderSync (Pro)</h1><div class="note warning modern"><p>FolderSync Pro 是 FolderSync 的付费版, 它与标准版的<strong>区别仅在于有无广告</strong>.  </p>
+</div>
+
+<h2 id="FolderSync"><a href="#FolderSync" class="headerlink" title="FolderSync"></a>FolderSync</h2><ul>
+<li><p>Google Play</p>
+<div class="note default modern"><p>Google Play: <a href="https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite" target="_blank" rel="noopener external nofollow noreferrer">https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite</a>  </p>
+</div></li>
+</ul>
+<h2 id="FolderSync-Pro"><a href="#FolderSync-Pro" class="headerlink" title="FolderSync Pro"></a>FolderSync Pro</h2><ul>
+<li><p>Google Play</p>
+<div class="note default modern"><p>Google Play: <a href="https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full" target="_blank" rel="noopener external nofollow noreferrer">https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full</a>  </p>
+</div></li>
+<li><p>华为应用商店</p>
+<div class="note danger modern"><p>FolderSync Pro 已上架华为应用商店, <em><strong>但不支持中国地区的华为账户购买</strong></em>.  </p>
+</div>
+
+<div class="note default modern"><p>华为应用商店: <a href="https://appgallery.huawei.com/#/app/C102886751" target="_blank" rel="noopener external nofollow noreferrer">https://appgallery.huawei.com/#/app/C102886751</a>  </p>
+</div></li>
+<li><p>其他方式</p>
+<div class="note info modern"><p>该方式购买后会通过邮件发送安装包以及后续更新至你的购买信息使用的邮箱.  </p>
+</div>
+
+<div class="note warning modern"><p><strong>价格超出常规方式购买数倍.</strong> <em>(个人版 9.95 欧元 / 商业版 14.95 欧元)</em>  </p>
+</div>
+
+<div class="note default modern"><p>Tacit Dynamics: <a href="https://www.tacit.dk/foldersync/purchase/" target="_blank" rel="noopener external nofollow noreferrer">https://www.tacit.dk/foldersync/purchase/</a>  </p>
+</div></li>
+</ul>
+<hr>
+<h1 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h1><h2 id="配置你的云端储存账户-方式"><a href="#配置你的云端储存账户-方式" class="headerlink" title="配置你的云端储存账户 / 方式"></a>配置你的云端储存账户 / 方式</h2><ol>
+<li><p>📂点击 Tab 栏中间的 “账户” 按钮切换到云储存账户及协议方式列表:  </p>
+<div class="hide-block"><button type="button" class="hide-button button--animated" style="">查看图片
+    </button><div class="hide-content"><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/001.jpg" alt="账户">  </p>
+</div></div></li>
+<li><p>➕点击列表右下角 “+” 按钮:  </p>
+<div class="hide-block"><button type="button" class="hide-button button--animated" style="">查看图片
+    </button><div class="hide-content"><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/002.jpg" alt="&quot;添加&quot;按钮">  </p>
+</div></div></li>
+<li><p>🔍选择你的要使用的云存储服务商或传输协议</p>
+</li>
+<li><p>ℹ️填写你的服务商账号密码或传输协议需要的参数 </p>
+<ul>
+<li>传输协议类请填写相关参数.</li>
+<li>云储存商类请填写账户密码或点击 <strong>“验证账户”</strong> 后进行网页登录认证.</li>
+</ul>
+</li>
+<li><p>💾保存连接信息或账户信息.</p>
+<ul>
+<li>大部分点击右下角即可保存.</li>
+<li>部分云储存商类需要需要连接到网页验证账户获取许可 <strong>(验证账户)</strong> 后点击右下角保存.</li>
+<li>传输协议及仅需要配置账户密码的云储存服务在保存配置之前建议点击 “测试” 按钮测试该方式的连通性.</li>
+</ul>
+</li>
+</ol>
+<h2 id="配置同步文件夹"><a href="#配置同步文件夹" class="headerlink" title="配置同步文件夹"></a>配置同步文件夹</h2><ol>
+<li><p>📂点击 Tab 栏第二个按钮 “同步文件夹” 切换到同步文件夹列表:  </p>
+<div class="hide-block"><button type="button" class="hide-button button--animated" style="">查看图片
+    </button><div class="hide-content"><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/003.jpg" alt="同步文件夹">  </p>
+</div></div></li>
+<li><p>➕点击列表右下角 “+” 按钮:  </p>
+<div class="hide-block"><button type="button" class="hide-button button--animated" style="">查看图片
+    </button><div class="hide-content"><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/002.jpg" alt="&quot;添加&quot;按钮">  </p>
+</div></div></li>
+<li><p>🔍选择要作为远程目标的项目</p>
+<blockquote>
+<p>远程目标可选择本地路径或者储存卡内路径 (需授权)</p>
+</blockquote>
+</li>
+<li><p>ℹ️配置同步参数  </p>
+ <div class="note primary modern"><p>配置参数将会在下个一级标题<a href="#%E5%90%8C%E6%AD%A5%E5%8F%82%E6%95%B0">同步参数</a> <em>(点击跳转)</em> 中详细描述  </p>
+</div></li>
+<li><p>💾保存参数</p>
+<blockquote>
+<p>点击右下角保存按钮即可保存, 或点击重置即可将参数界面重新还原至默认.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="开始同步"><a href="#开始同步" class="headerlink" title="开始同步"></a>开始同步</h2><ol>
+<li><p>✋手动同步</p>
+<ul>
+<li>点击 Tab 栏的 “同步文件夹” 即可分辨启动对应同步文件夹的同步.</li>
+<li>点击 “首页” 中 “同步状态” 卡片左下角的 “全部同步” 即可进行所有已配置好的同步文件夹同步.</li>
+<li>在桌面长按 FolderSync 应用图标可呼出快捷列表, 点击 “全部同步” 可进行所有已配置好的同步文件夹同步.</li>
+</ul>
+</li>
+<li><p>🤖自动同步</p>
+<ul>
+<li>当你设定的同步参数中条件符合时会启动后台进程进行同步.</li>
+<li>当本设备内有访问 FolderSync 中提供的设备唯一 “深层链接” 时会触发对应同步效果.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1 id="同步参数"><a href="#同步参数" class="headerlink" title="同步参数"></a>同步参数</h1><blockquote>
+<p>同步参数是 FolderSync 的核心配置, 包含自动任务执行的条件和执行同步时对文件的筛选.</p>
+</blockquote>
+<div class="note info modern"><p><strong>同步参数</strong>指 “同步文件夹” Tab 下的同步文件夹任务中以及添加同步文件夹任务中需要进行配置的参数.  </p>
+</div>
+
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/004.jpg" alt="同步参数配置界面">  </p>
+<div class="note warning modern"><p>以下详解将使用<strong>同步参数</strong>的配置界面的层次顺序进行描述.  </p>
+</div>
+
+<h2 id="名称"><a href="#名称" class="headerlink" title="名称"></a>名称</h2><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/005.jpg" alt="名称">  </p>
+<ul>
+<li>本条用于自定义该同步文件夹任务在 “同步文件夹” Tab 列表中的显示名称</li>
+<li>可点击右侧图标切换远程路径 “账户”.</li>
+</ul>
+<h2 id="同步类型"><a href="#同步类型" class="headerlink" title="同步类型"></a>同步类型</h2><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/006.jpg" alt="同步类型">  </p>
+<ol>
+<li><p>到远程文件夹<br>选择这条则表示本地文件夹下的文件将会传送到远程文件夹中, 并始终以本地文件夹下的内容为准.</p>
+</li>
+<li><p>到本地文件夹<br>选择这条则表示远程文件夹下的文件将会传送到本地文件夹中, 并始终以远程文件夹下的内容为准.</p>
+</li>
+<li><p>双向<br>选择这条则表示同时使用远程文件夹和本地文件夹为基准进行文件传送, 并保持两个路径中的内容一致(额外参数可定义双方对比文件的依据).</p>
+</li>
+</ol>
+<h2 id="远程-本地文件夹"><a href="#远程-本地文件夹" class="headerlink" title="远程 / 本地文件夹"></a>远程 / 本地文件夹</h2><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/007.jpg" alt="远程 / 本地文件夹">  </p>
+<ol>
+<li><p>远程文件夹<br>位于设定的 “账户” 为远程对象, 点击右侧文件夹即可进入远程对象的根目录, 可在此根据右下侧按钮进行对应目录操作, 点击对钩即可将当前显示的路径作为 “远程文件夹”.</p>
+</li>
+<li><p>本地文件夹<br>位于本地设备中的为本地对象, 点击右侧文件夹即可进入本地对象的根目录, 可在此根据右下侧按钮进行对应目录操作, 点击对钩即可将当前显示的路径作为 “本地文件夹”.</p>
+</li>
+</ol>
+<div class="note info modern"><p>你可以将本地储存作为 “远程对象” 使用, 实现本地文件自动归档.  </p>
+</div>
+
+<h2 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h2><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/008.jpg" alt="计划任务"> </p>
+<p>开启这个条目这表示使用以下设定的 “同步间隔” 的周期自动触发同步, 这条可以和其他同步条件共存.</p>
+<h2 id="同步选项"><a href="#同步选项" class="headerlink" title="同步选项"></a>同步选项</h2><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/009.jpg" alt="同步选项">  </p>
+<ol>
+<li><p>同步子文件夹<br>开启这个条目则表示将会同步设定的文件路径中的子文件夹.</p>
+</li>
+<li><p>同步隐藏文件<br>开启这个条目则表示会同步设定的文件路径中的 “隐藏文件”, 常见的 “隐藏文件” 是以 “.” 开头的文件.</p>
+</li>
+<li><p>同步删除操作<br>开启这个条目则表示会同步设定文件路径中的文件删除操作, 以同步类型中的设定为准的同步文件夹的操作为优先操作;<br>如果选择了非双向同步则会将文件来源视为优先, 文件来源的目录存在到此的文件夹中没有的内容则这些内筒会被删除.</p>
+</li>
+</ol>
+<h2 id="高级"><a href="#高级" class="headerlink" title="高级"></a>高级</h2><p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/010.jpg" alt="高级">  </p>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/011.jpg" alt="高级 | 选项菜单">  </p>
+<ol>
+<li>覆盖旧文件<ul>
+<li>总是<blockquote>
+<p>同步进行时, 新文件将会覆盖旧文件.</p>
+</blockquote>
+</li>
+<li>从不  <blockquote>
+<p>同步进行时, 新文件将不会覆盖旧文件.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>如果本地文件和远程文件都被修改<blockquote>
+<p>这个条目是指当程序检查文件时发现同名文件, 但远程对象和本地对象中的文件都被修改过而不能确定文件的执行 “覆盖旧文件” 中指定的操作时将会造成 “都被修改” 的程序判断, 而要进行的自动操作.</p>
+</blockquote>
+<ul>
+<li>覆盖最旧  <blockquote>
+<p>当触发时会将文件修改日期最晚的文件覆盖修改日期最早的文件.</p>
+</blockquote>
+</li>
+<li>跳过文件<blockquote>
+<p>当触发时跳过这两个远程对象与本地对象中的文件.</p>
+</blockquote>
+</li>
+<li>使用本地文件<blockquote>
+<p>当触发时会使用本地对象中的文件为准.</p>
+</blockquote>
+</li>
+<li>使用远程文件<blockquote>
+<p>当触发时会使用远程对象中的文件为准.</p>
+</blockquote>
+</li>
+<li>假设文件相同<blockquote>
+<p>将这两个文件视为相同的文件, 会被认为两个文件都无需进行操作而跳过.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>即时同步  <blockquote>
+<p>使用该条目则<strong>只会实时检测本地对象中的文件</strong>, 如果发生更改则立即执行同步.</p>
+</blockquote>
+</li>
+<li>从强制同步中排除<blockquote>
+<p>使用该条目时会将此同步文件夹任务在点击 “首页” Tab 的 “全部同步” 时排除在外, 不执行此 “强制同步” 的手动操作.</p>
+</blockquote>
+</li>
+<li>移动文件到目标文件夹 (源文件夹将变为空)<blockquote>
+<p>即为 “同步后删除源文件”, 这条条目只适用于<strong>单向同步 (到远程文件夹 / 到本地文件夹)</strong></p>
+</blockquote>
+</li>
+<li>失败重试<blockquote>
+<p>同步失败时(以各种原因导致的非程序设定参数引起的失败)将重新开始同步.</p>
+</blockquote>
+</li>
+<li>仅重新同步已修改的源文件 (忽略目标删除)<blockquote>
+<p>使用此条目时, 如果同步时检查文件发现来源对象中的文件未发生修改则不进行同步, 并且忽略目标文件夹中删除操作.</p>
+<blockquote>
+<p>示例: 如果你想要在同步后删除本地文件并不想删除已同步到远程对象中的文件时可以开启这个选项来实现 “本地删除, 远程保留”.</p>
+</blockquote>
+</blockquote>
+</li>
+<li>重新扫描媒体库<blockquote>
+<p>同步进行时重新扫描本地媒体库的更改(新增 / 更改 / 删除).</p>
+</blockquote>
+</li>
+<li>使用 MD5 校验<blockquote>
+<p>使用此条目时会对本地对象文件进行 MD5 计算, 并且如果远程对象支持计算源文件的 MD5 时将会使用 MD5 进行文件核对检查, 如果远程对象不支持 MD5 计算那么会没有效果.</p>
+<blockquote>
+<p>注意: 这个条目功能会消耗更多设备电量和性能用于 MD5 计算, 并且会降低同步速度, 但是如果远程对象支持 MD5 计算并使用 MD5 进行文件检查那么会比不启用的时候消耗更少的流量.</p>
+</blockquote>
+</blockquote>
+</li>
+<li>使用临时文件方案<blockquote>
+<p>使用此条目时同步文件会先将文件以一个临时文件名同步,同步完成后再修改为原文件名.</p>
+<blockquote>
+<p>部分远程对象不支持这种方式, 并且如果在没来得及修改文件名就停止同步会在目标文件夹下留下这个临时文件.</p>
+</blockquote>
+</blockquote>
+</li>
+<li>禁用文件大小检查<blockquote>
+<p>使用此条目时会禁止使用文件大小来确定文件修改与否.</p>
+<blockquote>
+<p>适用于部分远程对象在文件同步后会对文件进行自动修改导致的被程序判定为文件被修改而在同步时将修改后的文件认定为最新的造成失误操作. (如: 图片自动压缩 / 图片自动格式转换 / 图片自动添加水印 / HTML CSS 自动压缩) </p>
+</blockquote>
+</blockquote>
+</li>
+<li>仅在充电时同步<blockquote>
+<p>使用此条目时会让同步文件夹任务只在设备充电时执行, 这条命令优先级低于手动 “全部同步” 高于 “计划任务”.</p>
+</blockquote>
+</li>
+<li>如果缺少本地同步文件夹, 创建本地同步文件夹<blockquote>
+<p>使用本条目时, 如果远程对象中的文件夹在本地缺失, 则会自动在本地创建对应的文件夹继续进行同步.</p>
+<blockquote>
+<p>示例: 使用 “双向同步” 并开启 “同步删除操作” 时, 如果远程对象中的文件夹在本地 找不到则会直接判定为本地的对应文件夹被删除, 使得此删除操作同步实施在远程文件夹造成文件丢失; 如果没有开启 “同步删除操作” 但在本地对象中找不到远程对象中的文件夹, 那么同步时会因此报错而暂停.</p>
+</blockquote>
+</blockquote>
+</li>
+<li>将文件复制到带有时间戳的文件夹<blockquote>
+<p>此条目只适用于单相同步; 当使用此条目时, 会将文件传输到一个带有原文件夹名+同步时间字段的文件夹.</p>
+<blockquote>
+<p>该条目可用于需要保存多个历史时间点的备份操作.</p>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li><p>命名格式  </p>
+<div class="note default modern"><p>语法格式 (Class SimpleDateFormat): <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" target="_blank" rel="noopener external nofollow noreferrer">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>  </p>
+</div>
+
+<div class="hide-toggle" ><div class="hide-button toggle-title" style=""><i class="fas fa-caret-right fa-fw"></i><span>点击展开</span></div>
+    <div class="hide-content"><table>
+<thead>
+<tr>
+<th align="center">值</th>
+<th align="center">内容</th>
+<th align="center">类型</th>
+<th align="center">示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">G</td>
+<td align="center">纪年法</td>
+<td align="center">文本</td>
+<td align="center">AD</td>
+</tr>
+<tr>
+<td align="center">y</td>
+<td align="center">年</td>
+<td align="center">年份</td>
+<td align="center">1996; 96</td>
+</tr>
+<tr>
+<td align="center">Y</td>
+<td align="center">周年</td>
+<td align="center">年份</td>
+<td align="center">2009; 09</td>
+</tr>
+<tr>
+<td align="center">M</td>
+<td align="center">月份</td>
+<td align="center">月份</td>
+<td align="center">July; Jul; 07</td>
+</tr>
+<tr>
+<td align="center">w</td>
+<td align="center">一年中的某周</td>
+<td align="center">数字</td>
+<td align="center">27</td>
+</tr>
+<tr>
+<td align="center">W</td>
+<td align="center">一月中的某周</td>
+<td align="center">数字</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">D</td>
+<td align="center">一年中的某天</td>
+<td align="center">数字</td>
+<td align="center">189</td>
+</tr>
+<tr>
+<td align="center">d</td>
+<td align="center">一月中的某天</td>
+<td align="center">数字</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">F</td>
+<td align="center">一周中的某天</td>
+<td align="center">数字</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">一周中的某日的名称</td>
+<td align="center">文本</td>
+<td align="center">Tuesday; Tue</td>
+</tr>
+<tr>
+<td align="center">u</td>
+<td align="center">一周中的第几天(1=星期一, … , 7=星期日)</td>
+<td align="center">数字</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">a</td>
+<td align="center">上午/下午</td>
+<td align="center">文本</td>
+<td align="center">PM</td>
+</tr>
+<tr>
+<td align="center">H</td>
+<td align="center">一天中的某小时 (0-23)</td>
+<td align="center">数字</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">k</td>
+<td align="center">一天中的某小时 (1-24)</td>
+<td align="center">数字</td>
+<td align="center">24</td>
+</tr>
+<tr>
+<td align="center">K</td>
+<td align="center">上午/下午某小时 (0-11)</td>
+<td align="center">数字</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">h</td>
+<td align="center">上午/下午某小时(1-12)</td>
+<td align="center">数字</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="center">m</td>
+<td align="center">一小时中的某一分钟</td>
+<td align="center">数字</td>
+<td align="center">30</td>
+</tr>
+<tr>
+<td align="center">s</td>
+<td align="center">一分钟中的某一秒</td>
+<td align="center">数字</td>
+<td align="center">55</td>
+</tr>
+<tr>
+<td align="center">S</td>
+<td align="center">一秒钟的某一毫秒</td>
+<td align="center">数字</td>
+<td align="center">978</td>
+</tr>
+<tr>
+<td align="center">z</td>
+<td align="center">时区</td>
+<td align="center">常规时区</td>
+<td align="center">Pacific Standard Time; PST; GMT-08:00</td>
+</tr>
+<tr>
+<td align="center">Z</td>
+<td align="center">时区</td>
+<td align="center">RFC 822 时区</td>
+<td align="center">-0800</td>
+</tr>
+<tr>
+<td align="center">X</td>
+<td align="center">时区</td>
+<td align="center">ISO 8601 时区</td>
+<td align="center">-08; -0800; -08:00</td>
+</tr>
+</tbody></table>
+</div></div></li>
+</ul>
+<h2 id="连接"><a href="#连接" class="headerlink" title="连接"></a>连接</h2><blockquote>
+<p>这个选项规定了在同步时可以使用的网络连接类型.</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/012.jpg" alt="连接">  </p>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/013.jpg" alt="连接 | 选项菜单">  </p>
+<ol>
+<li>使用任何可用连接<blockquote>
+<p>使用任何可以连通互联网的连接类型进行同步.</p>
+</blockquote>
+</li>
+<li>使用 WiFi<blockquote>
+<p>可以使用 WiFi 网络进行同步.</p>
+</blockquote>
+</li>
+<li>4G 网络<blockquote>
+<p>可以使用 4G (包含 3G 与 3.5G )网络进行同步.</p>
+</blockquote>
+</li>
+<li>使用 Edge/2G<blockquote>
+<p>可以使用 2G 网络和 Edge(2.5G)网络进行同步.</p>
+</blockquote>
+</li>
+<li>使用以太网连接<blockquote>
+<p>可以使用以太网络进行同步.</p>
+</blockquote>
+</li>
+<li>使用其他连接<blockquote>
+<p>使用除以上四类的连接类型进行同步.</p>
+</blockquote>
+</li>
+<li>允许在漫游时同步<blockquote>
+<p>允许数据漫游时进行同步.</p>
+</blockquote>
+</li>
+<li>自动打开 WiFi (同步启动时)<blockquote>
+<p>当同步进行时自动打开 WiFi 开关.</p>
+</blockquote>
+<ul>
+<li>允许使用的 WiFi SSID<blockquote>
+<p>指当连接上才能够进行同步的 WiFi 名称 (支持多个 WiFi 名以”,” 分隔.)</p>
+</blockquote>
+</li>
+<li>不允许使用的 WiFi SSID<blockquote>
+<p>指当连接上以下的 WiFi 时不进行同步 (支持多个 WiFi 名以”,” 分隔.)</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="通知"><a href="#通知" class="headerlink" title="通知"></a>通知</h2><blockquote>
+<p>这个选型规定了可以发出通知栏消息的同步动作.</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/014.jpg" alt="通知">  </p>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/015.jpg" alt="通知 | 选项菜单">  </p>
+<ol>
+<li>显示同步成功的通知<blockquote>
+<p>当这个同步任务成功时发出通知栏消息.</p>
+</blockquote>
+</li>
+<li>当发生更改时显示通知<blockquote>
+<p>当发生文件删除或者文件移动时显示通知栏消息.</p>
+</blockquote>
+</li>
+<li>同步错误时显示通知<blockquote>
+<p>当同步发生错误时显示通知栏消息.</p>
+</blockquote>
+</li>
+</ol>
+<div class="note primary modern"><p>Android 可以在应用信息中设置消息通知的重要程度, 用于实现强提醒或者只显示通知不显示弹窗等.  </p>
+</div>
+
+<h2 id="自动操作"><a href="#自动操作" class="headerlink" title="自动操作"></a>自动操作</h2><blockquote>
+<p>使用 Deep Link 实现外部应用调用 FolderSync 内功能.</p>
+</blockquote>
+<div class="note warning modern"><p>该功能必须首先在 “设置” - “自动操作” 勾选启用功能.  </p>
+</div>
+
+<div class="note danger modern"><p>该功能的链接只能通过其他程序执行 “URL” 操作进行调用, 自行在浏览器输入链接没有任何效果.  </p>
+</div>
+
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/016.jpg" alt="自动操作">  </p>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/017.jpg" alt="自动操作 | 选项菜单">  </p>
+<div class="note info modern"><p>这些链接是随机生成的固定于本机安装的 FolderSync 可以通过这些链接实现外部程序如 Task 等自动化任务功能的软件实现联动.  </p>
+</div>
+
+<h2 id="同步过滤器"><a href="#同步过滤器" class="headerlink" title="同步过滤器"></a>同步过滤器</h2><blockquote>
+<p>同步过滤器可以匹配规则的办法对文件同步时进行二次筛选.</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/018.jpg" alt="同步过滤器">  </p>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/019.jpg" alt="同步过滤器 | 编辑菜单">  </p>
+<ul>
+<li>通过切换 “排除” 与 “包含” 两个按钮切换规则基本模式.</li>
+<li>通过点击默认为 “文件扩展名” 的下拉列表改变规则匹配元素类型.</li>
+</ul>
+<div class="note warning modern"><p>只有当同步任务被保存后才能够添加过滤器规则, 且每次仅能编辑一条规则, 如果需要多条规则请将规则保存后再点击 “添加同步过滤器” 添加新规则.  </p>
+</div>
+
+<h3 id="使用正则表达式"><a href="#使用正则表达式" class="headerlink" title="使用正则表达式"></a>使用正则表达式</h3><blockquote>
+<p>在文件名相关的过滤器元素支持正则表达式.</p>
+</blockquote>
+<div class="note default modern"><p>学习正则表达式 (菜鸟教程): <a href="https://www.runoob.com/regexp/regexp-tutorial.html" target="_blank" rel="noopener external nofollow noreferrer">https://www.runoob.com/regexp/regexp-tutorial.html</a>  </p>
+</div>
+
+<h3 id="过滤器注意事项"><a href="#过滤器注意事项" class="headerlink" title="过滤器注意事项"></a>过滤器注意事项</h3><ol>
+<li>带有路径的过滤器只能适用于本地文件路径.</li>
+<li>所有过滤器都对大小写不敏感.</li>
+<li>文件扩展名不包含 “.”</li>
+<li>如果文件夹 “包含” “等于” “开头” “结尾”相关的元素配置中写入 “/“ 将会应用于最后一个名称的文件夹下的路径, 如果不包含则会用于这个名称的文件夹.</li>
+<li>正则表达式仅适用于文件名相关, 不能用于路径.</li>
+<li>任务路径中所有子文件夹和子文件都将会受过滤器作用, 除非它们被同任务另一条过滤器规则排除.</li>
+</ol>
+<hr>
+<h1 id="其他功能"><a href="#其他功能" class="headerlink" title="其他功能"></a>其他功能</h1><p>用于描述除以上核心同步功能以外的界面功能.</p>
+<h2 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h2><blockquote>
+<p>Tab 栏第一个图标.</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/020.jpg" alt="首页">  </p>
+<ol>
+<li><p>设备信息栏<br>显示当前网络连接状态和电池充放电状态.</p>
+</li>
+<li><p>同步状态卡片<br>显示最近同步历史事件频率分布折线图, 若正在同步则会显示当前同步进度.<br>快捷按钮可用于快速打开同步 “历史记录” 和手动强制立即同步及停止同步.</p>
+</li>
+<li><p>同步状态卡片<br>若正在同步才会显示, 显示正在同步的任务进度以及状态.</p>
+</li>
+<li><p>同步文件夹卡片<br>用于快速打开 “同步文件夹” 列表和快速创建同步任务.</p>
+</li>
+<li><p>账户卡片<br>用于快速打开 “账户” 列表和快速创建远程对象账户.</p>
+</li>
+</ol>
+<h2 id="同步文件夹"><a href="#同步文件夹" class="headerlink" title="同步文件夹"></a>同步文件夹</h2><blockquote>
+<p>Tab 栏 第二个图标</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/021.jpg" alt="同步文件夹">  </p>
+<ol>
+<li><p>同步任务信息栏<br>远程对象图标 / 同步类型 / 过滤器数量 / 网络条件设置<br>同步状态图标 / 上一次同步时间 / 下一次同步时间</p>
+</li>
+<li><p>快捷命令栏<br>查看该任务同步历史记录 / 立即开始同步(强制停止同步) / 菜单(复制任务 / 删除任务)</p>
+</li>
+<li><p>添加按钮<br>添加远程云存储对象或协议.</p>
+</li>
+</ol>
+<h2 id="账户"><a href="#账户" class="headerlink" title="账户"></a>账户</h2><blockquote>
+<p>Tab 栏第三个图标</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/022.jpg" alt="账户"></p>
+<ol>
+<li><p>远程对象 / 传输协议信息栏<br>显示包含此远程对象的同步文件夹数量.</p>
+</li>
+<li><p>快捷命令栏<br>快速使用对应的远程对象新建同步文件夹 / 菜单按钮(删除账户)</p>
+</li>
+<li><p>添加按钮<br>添加新的远程对象 / 传输协议</p>
+</li>
+</ol>
+<h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><blockquote>
+<p>Tab 栏第四个图标</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/023.jpg" alt="文件">  </p>
+<ol>
+<li><p>控制栏<br>展开|收回侧边栏 / 全选 / 显示|隐藏隐藏文件 / 排序方式</p>
+</li>
+<li><p>设备储存信息栏<br>显示设备储存信息</p>
+</li>
+<li><p>文件 / 路径操作按钮<br>收藏路径 / 文件操作菜单</p>
+</li>
+<li><p>账户信息栏<br>显示已链接的远程对象 / 传输协议.</p>
+</li>
+<li><p>添加按钮<br>新建文件夹</p>
+</li>
+</ol>
+<h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><blockquote>
+<p>Tab 栏第五个图标</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/024.jpg" alt="关于">  </p>
+<ol>
+<li><p>应用信息卡片<br>应用名称 / 版本信息 / 许可信息 / 应用图标</p>
+</li>
+<li><p>帮助卡片<br>支持页面 / 用户指南页面 / 帮助翻译页面</p>
+</li>
+<li><p>配置界面<br>全局计划同步开关 / 通知系统设置界面|开关 / 安全启动 PIN 码与指纹 / 主题切换 / 权限授予</p>
+</li>
+<li><p>设置<br>详见下一级标题 “<a href="#%E8%AE%BE%E7%BD%AE">设置</a>“</p>
+</li>
+</ol>
+<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><blockquote>
+<p>配置应用其他功能及额外设置.</p>
+</blockquote>
+<p><img src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/foldersync_v3/025.jpg" alt="设置">  </p>
+<h4 id="基本设置"><a href="#基本设置" class="headerlink" title="基本设置"></a>基本设置</h4><ol>
+<li><p>语言<br>更改软件语言</p>
+</li>
+<li><p>启动向导<br>重新播放使用向导界面</p>
+</li>
+<li><p>崩溃报告<br>自动记录软件崩溃报告</p>
+</li>
+<li><p>Google Analytics<br>谷歌分析服务</p>
+</li>
+</ol>
+<h4 id="用户界面"><a href="#用户界面" class="headerlink" title="用户界面"></a>用户界面</h4><ol>
+<li>显示底部栏标签标题<br>显示 Tab 栏图标下的文字</li>
+</ol>
+<h4 id="内部储存"><a href="#内部储存" class="headerlink" title="内部储存"></a>内部储存</h4><ol>
+<li><p>Root 授权<br>获取 Root 权限用软件能够访问系统目录</p>
+</li>
+<li><p>临时文件夹<br>用于同步中存放产生的临时文件</p>
+</li>
+</ol>
+<h4 id="同步选项-1"><a href="#同步选项-1" class="headerlink" title="同步选项"></a>同步选项</h4><ol>
+<li><p>禁用堆栈通知<br>禁止通知重复堆叠在一条中</p>
+</li>
+<li><p>保持屏幕常亮<br>在同步时保持设备屏幕不息屏而保持程序运行</p>
+</li>
+<li><p>保留日志文件<br>日志文件保留的数量</p>
+</li>
+<li><p>比较文件时允许的毫秒差异<br>在比较文件时若文件时间相差在此范围之内将视为同一个文件.</p>
+</li>
+<li><p>所需的空间</p>
+</li>
+</ol>
+<h4 id="自动操作-1"><a href="#自动操作-1" class="headerlink" title="自动操作"></a>自动操作</h4><p>启用或关闭深层链接功能, 关闭后将无法在同步任务配置生成唯一的链接</p>
+<h4 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h4><ol>
+<li><p>备份文件夹<br>选择备份的数据库文件存储路径</p>
+</li>
+<li><p>备份数据库<br>立即备份当前所有配置到数据库为文件到 “备份文件夹”.</p>
+</li>
+<li><p>还原数据库<br>通过文档查看器选择数据库文件进行配置恢复.</p>
+</li>
+</ol>
+<hr>
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><div class="note warning modern"><p>请在电池优化中将 FolderSync 加入白名单防止自动任务无法启动.  </p>
+</div>
+
+<div class="note warning modern"><p>部分第三方定制 UI 还需要开启诸如 “后台权限” “自启动” 等权限防止任务无法启动.  </p>
+</div>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:admin@cxplay.org">CXPLAY</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.cxplay.org/works/foldersync_v3.html">https://www.cxplay.org/works/foldersync_v3.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.cxplay.org" target="_blank">CXPLAY World</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/FolderSync/">FolderSync</a><a class="post-meta__tags" href="/tags/Android/">Android</a></div><div class="post_share"><div class="social-share" data-image="https://i.bugimg.com/img/blog/foldersync_v3/cover.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://i.bugimg.com/img/blog/wechat_reward.png" target="_blank"><img class="post-qr-code-img" src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/wechat_reward.png" alt="微信赞赏"/></a><div class="post-qr-code-desc">微信赞赏</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/works/hexo_butterfly_img_template.html"><img class="prev-cover" src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/hexo_butterfly_img_template/cover_2.png" onerror="onerror=null;src='https://i.bugimg.com/img/404.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hexo - Butterfly 主题固定图片尺寸模板</div></div></a></div><div class="next-post pull-right"><a href="/works/hexo-markdown-write-tips-note.html"><img class="next-cover" src= "https://i.bugimg.com/img/nyancat.gif" data-lazy-src="https://i.bugimg.com/img/blog/hexo-markdown-write-tips-note/cover_top_img.jpg" onerror="onerror=null;src='https://i.bugimg.com/img/404.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hexo / Markdown 创作指南 - 我的 Hexo 博客建站心得</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Utterances</span><span class="switch-btn"></span><span class="second-comment">Waline</span></div></div><div class="comment-wrap"><div><div id="utterances-wrap"></div></div><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E5%87%86%E5%A4%87"><span class="toc-number">1.</span> <span class="toc-text">使用准备</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E-FolderSync"><span class="toc-number">1.1.</span> <span class="toc-text">关于 FolderSync</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%AF%E6%8C%81%E7%9A%84%E4%BA%91%E5%82%A8%E5%AD%98%E6%8F%90%E4%BE%9B%E5%95%86"><span class="toc-number">1.2.</span> <span class="toc-text">支持的云储存提供商</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%AF%E6%8C%81%E7%9A%84%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.3.</span> <span class="toc-text">支持的传输协议</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E7%AB%99%E7%82%B9"><span class="toc-number">1.4.</span> <span class="toc-text">相关站点</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%8E%B7%E5%BE%97-FolderSync-Pro"><span class="toc-number">2.</span> <span class="toc-text">获得 FolderSync (Pro)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#FolderSync"><span class="toc-number">2.1.</span> <span class="toc-text">FolderSync</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#FolderSync-Pro"><span class="toc-number">2.2.</span> <span class="toc-text">FolderSync Pro</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8"><span class="toc-number">3.</span> <span class="toc-text">开始使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84%E4%BA%91%E7%AB%AF%E5%82%A8%E5%AD%98%E8%B4%A6%E6%88%B7-%E6%96%B9%E5%BC%8F"><span class="toc-number">3.1.</span> <span class="toc-text">配置你的云端储存账户 &#x2F; 方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E5%90%8C%E6%AD%A5%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">3.2.</span> <span class="toc-text">配置同步文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E5%90%8C%E6%AD%A5"><span class="toc-number">3.3.</span> <span class="toc-text">开始同步</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E5%8F%82%E6%95%B0"><span class="toc-number">4.</span> <span class="toc-text">同步参数</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8D%E7%A7%B0"><span class="toc-number">4.1.</span> <span class="toc-text">名称</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E7%B1%BB%E5%9E%8B"><span class="toc-number">4.2.</span> <span class="toc-text">同步类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B-%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">4.3.</span> <span class="toc-text">远程 &#x2F; 本地文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1"><span class="toc-number">4.4.</span> <span class="toc-text">计划任务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E9%80%89%E9%A1%B9"><span class="toc-number">4.5.</span> <span class="toc-text">同步选项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%AB%98%E7%BA%A7"><span class="toc-number">4.6.</span> <span class="toc-text">高级</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5"><span class="toc-number">4.7.</span> <span class="toc-text">连接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E7%9F%A5"><span class="toc-number">4.8.</span> <span class="toc-text">通知</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E6%93%8D%E4%BD%9C"><span class="toc-number">4.9.</span> <span class="toc-text">自动操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E8%BF%87%E6%BB%A4%E5%99%A8"><span class="toc-number">4.10.</span> <span class="toc-text">同步过滤器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">4.10.1.</span> <span class="toc-text">使用正则表达式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%87%E6%BB%A4%E5%99%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">4.10.2.</span> <span class="toc-text">过滤器注意事项</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%8A%9F%E8%83%BD"><span class="toc-number">5.</span> <span class="toc-text">其他功能</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A6%96%E9%A1%B5"><span class="toc-number">5.1.</span> <span class="toc-text">首页</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">5.2.</span> <span class="toc-text">同步文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%A6%E6%88%B7"><span class="toc-number">5.3.</span> <span class="toc-text">账户</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E4%BB%B6"><span class="toc-number">5.4.</span> <span class="toc-text">文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E"><span class="toc-number">5.5.</span> <span class="toc-text">关于</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE"><span class="toc-number">5.5.1.</span> <span class="toc-text">设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE"><span class="toc-number">5.5.1.1.</span> <span class="toc-text">基本设置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2"><span class="toc-number">5.5.1.2.</span> <span class="toc-text">用户界面</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%85%E9%83%A8%E5%82%A8%E5%AD%98"><span class="toc-number">5.5.1.3.</span> <span class="toc-text">内部储存</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E9%80%89%E9%A1%B9-1"><span class="toc-number">5.5.1.4.</span> <span class="toc-text">同步选项</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E6%93%8D%E4%BD%9C-1"><span class="toc-number">5.5.1.5.</span> <span class="toc-text">自动操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%87%E4%BB%BD"><span class="toc-number">5.5.1.6.</span> <span class="toc-text">备份</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">6.</span> <span class="toc-text">注意事项</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://i.bugimg.com/img/blog/foldersync_v3/top_img.png')"><div id="footer-wrap"><div class="copyright">&copy;2021 By CXPLAY</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a href="https://stats.uptimerobot.com/6xGn6Top7p" target="_blank">Web Status</a> | <a href="https://filel.ink/" target="_blank">FileLink</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://raw.filel.ink/js/utils.js"></script><script src="https://raw.filel.ink/js/main.js"></script><script src="https://raw.filel.ink/u/1/files/js/tw_cn.js"></script><script src="https://raw.filel.ink/u/1/files/js/instant.page/instantpage.min.js" type="module"></script><script src="https://raw.filel.ink/u/1/files/js/vanilla-lazyload/lazyload.iife.min.js"></script><script src="https://raw.filel.ink/u/1/files/node-snackbar/snackbar.min.js"></script><script src="https://raw.filel.ink/js/search/local-search.js"></script><div class="js-pjax"><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      true && mermaid.init()
+    })
+  }
+}</script><script>function loadUtterances () {
+  let ele = document.createElement('script')
+  ele.setAttribute('id', 'utterances_comment')
+  ele.setAttribute('src', 'https://utteranc.es/client.js')
+  ele.setAttribute('repo', 'cxplay/utterances-data')
+  ele.setAttribute('issue-term', 'pathname')
+  let nowTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'github-dark' : 'github-light'
+  ele.setAttribute('theme', nowTheme)
+  ele.setAttribute('crossorigin', 'anonymous')
+  ele.setAttribute('async', 'true')
+  document.getElementById('utterances-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function utterancesTheme () {
+  if (document.querySelector('.utterances-frame')) {
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'github-dark' : 'github-light'
+    const message = {
+      type: 'set-theme',
+      theme: theme
+    };
+    const iframe = document.querySelector('.utterances-frame');
+    iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+  }
+}
+
+if ('Utterances' === 'Utterances' || !false) {
+  if (false) btf.loadComment(document.getElementById('utterances-wrap'), loadUtterances)
+  else loadUtterances()
+} else {
+  function loadOtherComment () {
+    loadUtterances()
+  }
+}</script><script>function loadWaline () {
+  function initWaline () {
+    const waline = new Waline(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://comment.cxplay.org',
+      avatar: 'monsterid',
+      avatarCDN: 'https://sdn.geekzu.org/avatar/',
+      path: location.pathname,
+      visitor: true,
+      dark: 'html[data-theme="dark"]'
+    }, {"uploadImage":false,"placeholder":"🙆‍♂️评论后不显示刷新即可.\n💬支持 Github 登录.\n✍支持 Markdown 语法.","sofa":"暂无评论","emoji":["https://i.bugimg.com/waline/EveOneCat","https://i.bugimg.com/waline/weibo","https://i.bugimg.com/waline/WeChat","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili"]}))
+  }
+
+  if (typeof Waline === 'function') initWaline() 
+  else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(initWaline)
+}
+
+if ('Utterances' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script src="https://raw.filel.ink/u/1/files/js/pjax.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+  window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div></body></html>

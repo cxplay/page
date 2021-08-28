@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CXPLAY World</title>
+    <link>https://www.cxplay.org/</link>
+    
+    <image>
+      <url>https://www.cxplay.org/icon.png</url>
+      <title>CXPLAY World</title>
+      <link>https://www.cxplay.org/</link>
+    </image>
+    
+    <atom:link href="https://www.cxplay.org/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>Share With You.</description>
+    <pubDate>Thu, 26 Aug 2021 19:16:44 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>深究 Markdown 的锚点与使用方法</title>
+      <link>https://www.cxplay.org/works/markdown_anchor.html</link>
+      <guid>https://www.cxplay.org/works/markdown_anchor.html</guid>
+      <pubDate>Fri, 20 Aug 2021 14:16:12 GMT</pubDate>
+      
+      <description>锚点的使用能够让文章更加易读, 在 Markdown 中使用锚点需要注意渲染器的支持以及值得关注它的实现原理.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E6%8E%88%E8%A8%80%E5%86%8C/">授言册</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E8%B5%84%E6%96%99%E5%BA%93/">资料库</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E8%B5%84%E6%96%99%E5%BA%93/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/">标记语言</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E8%B5%84%E6%96%99%E5%BA%93/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/Markdown/">Markdown</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Markdown/">Markdown</category>
+      
+      <category domain="https://www.cxplay.org/tags/HTML/">HTML</category>
+      
+      
+      <comments>https://www.cxplay.org/works/markdown_anchor.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在 Windows 10 安装并配置 Sony Media Go (附下载地址)</title>
+      <link>https://www.cxplay.org/works/sony_media_go_on_windows_10.html</link>
+      <guid>https://www.cxplay.org/works/sony_media_go_on_windows_10.html</guid>
+      <pubDate>Tue, 17 Aug 2021 03:17:31 GMT</pubDate>
+      
+      <description>Media Go 是索尼出品的一款多媒体管理软件, 但是停止维护后在新 Windows 10 系统中安装变得麻烦.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/Windows/">Windows</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Windows/">Windows</category>
+      
+      <category domain="https://www.cxplay.org/tags/Media-Go/">Media Go</category>
+      
+      <category domain="https://www.cxplay.org/tags/Music-Center-for-PC/">Music Center for PC</category>
+      
+      <category domain="https://www.cxplay.org/tags/Windows-Media-Player/">Windows Media Player</category>
+      
+      
+      <comments>https://www.cxplay.org/works/sony_media_go_on_windows_10.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>直接下载无 &quot;使用码&quot; 的(傲梅)分区助手</title>
+      <link>https://www.cxplay.org/works/aomei_partition_assistant.html</link>
+      <guid>https://www.cxplay.org/works/aomei_partition_assistant.html</guid>
+      <pubDate>Sun, 08 Aug 2021 23:07:06 GMT</pubDate>
+      
+      <description>傲梅分区助手是一个用于管理 Windows 磁盘分区的工具, 国内版免费但需要关注公众号获取 &quot;使用码&quot; 才能使用软件.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/Windows/">Windows</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/%E5%88%86%E5%8C%BA%E5%8A%A9%E6%89%8B/">分区助手</category>
+      
+      
+      <comments>https://www.cxplay.org/works/aomei_partition_assistant.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows 软件备忘录</title>
+      <link>https://www.cxplay.org/works/windows_software_note.html</link>
+      <guid>https://www.cxplay.org/works/windows_software_note.html</guid>
+      <pubDate>Fri, 30 Jul 2021 22:55:19 GMT</pubDate>
+      
+      <description>记录 WIndows 平台的好用的软件.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/Windows/">Windows</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://www.cxplay.org/works/windows_software_note.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>联想小新 Pro 16 锐龙独显版一周使用体验</title>
+      <link>https://www.cxplay.org/works/Lenovo_xiaoxin_pro16_2021_5800h_1650.html</link>
+      <guid>https://www.cxplay.org/works/Lenovo_xiaoxin_pro16_2021_5800h_1650.html</guid>
+      <pubDate>Fri, 07 May 2021 08:38:21 GMT</pubDate>
+      
+      <description>首发于 2021 年 5 月 1 日的联想小新系列新产品 —— 小新 Pro 16, 除了使用全新 ZEN3 架构的的锐龙 5800H 还有新版英伟达 GTX 1650 独立显卡的加持, 高分高刷再加上小新系列有史以来最强的散热系统; 这台机器会有什么样的用户体验呢?</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E5%8D%9A%E7%89%A9%E5%BF%97/">博物志</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%8D%9A%E7%89%A9%E5%BF%97/%E6%95%B0%E7%A0%81/">数码</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/%E8%81%94%E6%83%B3%E5%B0%8F%E6%96%B0/">联想小新</category>
+      
+      <category domain="https://www.cxplay.org/tags/AMD/">AMD</category>
+      
+      <category domain="https://www.cxplay.org/tags/GTX/">GTX</category>
+      
+      
+      <comments>https://www.cxplay.org/works/Lenovo_xiaoxin_pro16_2021_5800h_1650.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>蓝色的世界</title>
+      <link>https://www.cxplay.org/works/blue_world.html</link>
+      <guid>https://www.cxplay.org/works/blue_world.html</guid>
+      <pubDate>Fri, 16 Apr 2021 06:54:29 GMT</pubDate>
+      
+      <description>我从梦中惊醒, 但我睁眼所及的景象却是陌生的, 这里曾经是被红绿蓝所占据的世界, 但我睁眼能看见的只有蓝色, 仿佛要冻结一切一般铺天盖地.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E5%AF%86%E8%AF%AD%E7%93%B6/">密语瓶</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/%E5%AF%86%E8%AF%AD%E7%93%B6/">密语瓶</category>
+      
+      
+      <comments>https://www.cxplay.org/works/blue_world.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>解决索尼 Xperia XZ Premium 黑屏无法充电呼吸灯闪烁</title>
+      <link>https://www.cxplay.org/works/sony_xperia_unable_to_start_breathing_lamp_is_normal.html</link>
+      <guid>https://www.cxplay.org/works/sony_xperia_unable_to_start_breathing_lamp_is_normal.html</guid>
+      <pubDate>Tue, 13 Apr 2021 16:04:36 GMT</pubDate>
+      
+      <description>解决索尼 Xperia XZ Premium 以及安卓手机黑屏无法充电呼吸闪烁的问题</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E6%97%B6%E9%97%B4%E8%BD%B4/">时间轴</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E6%97%A5%E8%AE%B0%E6%9C%AC/">日记本</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/%E7%B4%A2%E5%B0%BC-Xperia/">索尼 Xperia</category>
+      
+      
+      <comments>https://www.cxplay.org/works/sony_xperia_unable_to_start_breathing_lamp_is_normal.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Bug图床使用方法及建议</title>
+      <link>https://www.cxplay.org/works/bugimg_guidebook.html</link>
+      <guid>https://www.cxplay.org/works/bugimg_guidebook.html</guid>
+      <pubDate>Sat, 10 Apr 2021 10:49:59 GMT</pubDate>
+      
+      <description>Bug图床是博主自建的一个私人图床, 这里是用于小范围公开使用时的一些使用方法及建议.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E6%8E%88%E8%A8%80%E5%86%8C/">授言册</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E6%97%B6%E9%97%B4%E8%BD%B4/">时间轴</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/Web/">Web</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Bug%E5%9B%BE%E5%BA%8A/">Bug图床</category>
+      
+      <category domain="https://www.cxplay.org/tags/%E5%9B%BE%E5%BA%8A/">图床</category>
+      
+      
+      <comments>https://www.cxplay.org/works/bugimg_guidebook.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>哔哩哔哩表情包 重置版 [2021.02]</title>
+      <link>https://www.cxplay.org/works/bilibili_emoji_remake.html</link>
+      <guid>https://www.cxplay.org/works/bilibili_emoji_remake.html</guid>
+      <pubDate>Fri, 12 Mar 2021 21:52:05 GMT</pubDate>
+      
+      <description>根据哔哩哔哩表情包更新而重置高清版的一套表情包, 适用于国内各大社交平台使用.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/">藏图馆</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/%E8%A1%A8%E6%83%85%E5%8C%85/">表情包</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/%E8%A1%A8%E6%83%85%E5%8C%85/">表情包</category>
+      
+      <category domain="https://www.cxplay.org/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/">哔哩哔哩</category>
+      
+      
+      <comments>https://www.cxplay.org/works/bilibili_emoji_remake.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo - Butterfly 主题固定图片尺寸模板</title>
+      <link>https://www.cxplay.org/works/hexo_butterfly_img_template.html</link>
+      <guid>https://www.cxplay.org/works/hexo_butterfly_img_template.html</guid>
+      <pubDate>Thu, 04 Mar 2021 15:32:23 GMT</pubDate>
+      
+      <description>有关于 Hexo 主题 Butterfly 文章封面(cover)和顶部图片(top_img)的一般通用裁剪尺寸和设计模板.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/">藏图馆</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E6%8E%88%E8%A8%80%E5%86%8C/">授言册</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/%E8%AE%BE%E8%AE%A1/">设计</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Hexo/">Hexo</category>
+      
+      <category domain="https://www.cxplay.org/tags/Hexo-Butterfly/">Hexo-Butterfly</category>
+      
+      <category domain="https://www.cxplay.org/tags/%E6%A8%A1%E6%9D%BF/">模板</category>
+      
+      
+      <comments>https://www.cxplay.org/works/hexo_butterfly_img_template.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>FolderSync V3.0 使用手册</title>
+      <link>https://www.cxplay.org/works/foldersync_v3.html</link>
+      <guid>https://www.cxplay.org/works/foldersync_v3.html</guid>
+      <pubDate>Sat, 27 Feb 2021 10:12:19 GMT</pubDate>
+      
+      <description>Android 文件同步软件 FolderSync 于 2020 年 5 月 7 日使用了全新的 UI 界面, 在此重新为这款优秀的软件撰写一篇全面的中文使用手册.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E6%8E%88%E8%A8%80%E5%86%8C/">授言册</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/Android/">Android</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/FolderSync/">FolderSync</category>
+      
+      <category domain="https://www.cxplay.org/tags/Android/">Android</category>
+      
+      
+      <comments>https://www.cxplay.org/works/foldersync_v3.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo / Markdown 创作指南 - 我的 Hexo 博客建站心得</title>
+      <link>https://www.cxplay.org/works/hexo-markdown-write-tips-note.html</link>
+      <guid>https://www.cxplay.org/works/hexo-markdown-write-tips-note.html</guid>
+      <pubDate>Tue, 23 Feb 2021 16:33:15 GMT</pubDate>
+      
+      <description>Hexo - Markdown 文章创作指南及 Markdown 语法使用技巧 | CXPLAY World 建立的感言</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E6%8E%88%E8%A8%80%E5%86%8C/">授言册</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E6%97%B6%E9%97%B4%E8%BD%B4/">时间轴</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Markdown/">Markdown</category>
+      
+      <category domain="https://www.cxplay.org/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://www.cxplay.org/works/hexo-markdown-write-tips-note.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>2021年 一月插画精选</title>
+      <link>https://www.cxplay.org/works/4167091717.html</link>
+      <guid>https://www.cxplay.org/works/4167091717.html</guid>
+      <pubDate>Sun, 21 Feb 2021 16:54:00 GMT</pubDate>
+      
+      <description>2021年 一月插画精选 50张</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/">藏图馆</category>
+      
+      <category domain="https://www.cxplay.org/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/%E6%8F%92%E7%94%BB/">插画</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Pixiv/">Pixiv</category>
+      
+      <category domain="https://www.cxplay.org/tags/%E6%8F%92%E7%94%BB/">插画</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>频道的创建原因</title>
+      <link>https://www.cxplay.org/works/fuck_tencent.html</link>
+      <guid>https://www.cxplay.org/works/fuck_tencent.html</guid>
+      <pubDate>Mon, 10 Aug 2020 19:50:03 GMT</pubDate>
+      
+      <description>一个和 QQ 有关的经历.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E7%BB%9D%E7%95%8C%E8%A1%8C/">绝界行</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/%E8%85%BE%E8%AE%AF/">腾讯</category>
+      
+      <category domain="https://www.cxplay.org/tags/Telegram/">Telegram</category>
+      
+      <category domain="https://www.cxplay.org/tags/QQ/">QQ</category>
+      
+      
+      <comments>https://www.cxplay.org/works/fuck_tencent.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Markdown 语法测试</title>
+      <link>https://www.cxplay.org/works/markdown_test.html</link>
+      <guid>https://www.cxplay.org/works/markdown_test.html</guid>
+      <pubDate>Sat, 21 Mar 2020 12:46:25 GMT</pubDate>
+      
+      <description>这是我的 Markdown 语法备忘录以及语法渲染支持测试.</description>
+      
+      
+      
+      
+      <category domain="https://www.cxplay.org/categories/%E7%A8%BF%E4%BB%B6%E5%A4%B9/">稿件夹</category>
+      
+      
+      <category domain="https://www.cxplay.org/tags/Markdown/">Markdown</category>
+      
+      
+      <comments>https://www.cxplay.org/works/markdown_test.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

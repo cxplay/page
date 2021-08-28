@@ -1,0 +1,19 @@
+User-agent: *
+
+Allow: /
+Allow: /about/
+Allow: /works/
+Allow: /categories/
+Allow: /tags/
+Allow: /archives/
+Allow: /link/
+Allow: /comment/
+Allow: /css/
+Allow: /js/
+Allow: /log/
+
+
+Disallow: /img/
+
+Sitemap: https://www.cxplay.org/sitemap.xml
+Sitemap: https://www.cxplay.org/baidusitemap.xml
